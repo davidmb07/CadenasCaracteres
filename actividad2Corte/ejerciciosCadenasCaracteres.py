@@ -1,8 +1,8 @@
 #1. Teniendo en cuenta las siguientes variables que describen su edad,
 # nombre y comida favorita, genera una cadena para presentarse:
-name = 'David'
-age = 23
-favoriteFood = 'Arroz con pollo'
+name = 'Luis'
+age = 27
+favoriteFood = 'Pasta con salsa Boloñesa'
 text = f'''Hola! Mi nombre es {name}.
 Yo tengo {age} años, 
 y mi comida favorita es {favoriteFood}!!'''
@@ -13,10 +13,9 @@ print('')
 #2. Crea un código que solicite al usuario su nombre completo. Luego deberá
 # contar el número de letras de su nombre, ignorando los espacios. Finalmente,
 # debe saludar al usuario e informarle la longitud de su nombre.
-fullName = '   Brayan David Muñoz Bogota   '
+fullName = input("Por favor, introduce tu nombre completo: ")
 longitud = len(fullName.replace(' ', ''))
-text1 = f'''Hola, {fullName}! Tu nombre tienen
-{longitud} letras, excluyendo los espacios.'''
+text1 = f"Hola, {fullName}! Tu nombre tiene {longitud} letras, excluyendo los espacios."
 print(text1)
 print('____________________________________')
 print('')
